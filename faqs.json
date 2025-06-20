@@ -1,0 +1,420 @@
+{
+  "faqs": [
+    {
+      "question": "What is FlumersAI?",
+      "answer": "Flumers.AI is a next-generation AI-powered influencer marketing platform that bridges the gap between brands and influencers. It facilitates influencer discovery, real-time communication, campaign proposal handling, and collaboration analytics."
+    },
+    {
+      "question": "Who is the target audience for FlumersAI?",
+      "answer": "Flumers.AI is designed for both brands looking to collaborate with influencers and influencers seeking brand partnerships. It provides tailored features for each user type."
+    },
+    {
+      "question": "What is the purpose of this project?",
+      "answer": "The purpose of this project is to create a comprehensive platform that simplifies influencer marketing by providing tools for discovery, communication, campaign management, and analytics."
+    },
+    {
+      "question": "How do I get started with FlumersAI?",
+      "answer": "To get started, you can sign up for an account on the platform. After registration, you can log in and explore features like influencer search, campaign management, and chat functionalities."
+    },
+    {
+      "question": "What are the main components of the project?",
+      "answer": "The main components include the frontend built with React.js, the backend powered by Django, Firebase for authentication and database management, and OpenAI's GPT models for chatbot functionality."
+    },
+    {
+      "question": "What are the main features of the platform?",
+      "answer": "The platform includes features like influencer discovery, chat functionality, campaign management, brand and influencer dashboards, and AI-powered chatbot integration."
+    },
+    {
+      "question": "What technologies are used in this project?",
+      "answer": "The project uses React.js for the frontend, Django for the backend, Firebase for authentication and Firestore for database management, and OpenAI's GPT models for chatbot functionality."
+    },
+    {
+      "question": "How does the chat system work?",
+      "answer": "The chat system allows real-time communication between brands and influencers. Messages are stored in Firestore, and unseen messages are tracked for notifications."
+    },
+    {
+      "question": "How are user roles managed?",
+      "answer": "User roles (brand or influencer) are managed using Firebase authentication and are used to provide role-specific dashboards and functionalities."
+    },
+    {
+      "question": "What is the folder structure of the project?",
+      "answer": "The project is divided into 'frontend' and 'backend' folders. The frontend contains React components, features, and styles, while the backend contains Django apps for APIs, chatbot, and image classification."
+    },
+    {
+      "question": "What is the Brand Dashboard?",
+      "answer": "The Brand Dashboard provides brands with an overview of their campaigns, orders, and influencer interactions. It includes features like order management, message notifications, and profile settings."
+    },
+    {
+      "question": "What features are available in Brand Orders?",
+      "answer": "Brand Orders allows brands to manage their orders with influencers. Features include order creation, tracking, and revision management. It also tracks unseen submissions and provides a review dialog for order updates."
+    },
+    {
+      "question": "What is the Brand Profile feature?",
+      "answer": "The Brand Profile feature allows brands to manage their profile information, including brand name, niche, website, and about section. It also supports uploading and previewing profile images."
+    },
+    {
+      "question": "What is the Influencer Dashboard?",
+      "answer": "The Influencer Dashboard allows influencers to manage their collaborations, view orders, and interact with brands. It includes features like order tracking, profile management, and chat functionality."
+    },
+    {
+      "question": "What features are available in Influencer Orders?",
+      "answer": "Influencer Orders allows influencers to manage their received orders. Features include order tracking, file submissions, and revision handling. It also tracks unseen revisions and provides a dialog for viewing and managing revisions."
+    },
+    {
+      "question": "What is the Influencer Profile feature?",
+      "answer": "The Influencer Profile feature allows influencers to manage their profile information, including bio, niche, and social media platforms. It supports uploading profile images and tracking platform-specific data like followers and watch time."
+    },
+    {
+      "question": "How does the Influencer Orders feature work?",
+      "answer": "Influencer Orders enables influencers to manage their collaborations with brands. It includes features like order tracking, revision handling, and unseen revisions management."
+    },
+    {
+      "question": "What is the purpose of the Search Influencers feature?",
+      "answer": "The Search Influencers feature allows brands to discover and filter influencers based on specific criteria, such as followers, platform, and niche. It also supports AI-based requests for influencer recommendations."
+    },
+    {
+      "question": "What is the Show Profile feature?",
+      "answer": "The Show Profile feature displays detailed information about a specific influencer, including their bio, platforms, and submitted files. It also allows brands to like or unlike an influencer's profile."
+    },
+    {
+      "question": "What is the User Profile feature?",
+      "answer": "The User Profile feature allows users to view and edit their personal information, such as name and bio. It also supports toggling between edit and view modes."
+    },
+    {
+      "question": "How do I contribute to the project?",
+      "answer": "Follow the folder structure and naming conventions, write tests for new features, and ensure code is linted and formatted before committing."
+    },
+    {
+      "question": "What is the license for this project?",
+      "answer": "This project is licensed under the MIT License."
+    },
+    {
+      "question": "Who is Hamza Arif?",
+      "answer": "Hamza Arif is a software engineer and the creator of Flumers.AI. He is passionate about building innovative solutions that leverage AI to enhance user experiences in influencer marketing."
+    },
+    {
+      "question": "Who is Tasmia Feroz",
+      "answer": "Tasmia Feroz is a software engineer and the co-creator of Flumers.AI. She specializes in frontend development and has contributed significantly to the design and user experience of the platform. and she works on the Ai Model and Chatbot."
+    },
+    {
+      "question": "How does the protected route system work?",
+      "answer": "The protected route system ensures that only authenticated users can access specific pages. It uses React Router and Firebase authentication to manage access control."
+    },
+    {
+      "question": "What is the AI model used in Flumers?",
+      "answer": "Flumers uses advanced AI models like OpenAI's GPT and Mistral-7B for natural language processing and intelligent chatbot responses."
+    },
+    {
+      "question": "How does Flumers ensure data security?",
+      "answer": "Flumers employs encryption, secure authentication mechanisms, and regular security audits to ensure user data is protected."
+    },
+    {
+      "question": "Can I integrate Flumers with other platforms?",
+      "answer": "Yes, Flumers provides APIs and integration options to connect with third-party platforms for enhanced functionality."
+    },
+    {
+      "question": "What is the pricing model for Flumers?",
+      "answer": "Flumers offers a subscription-based pricing model with different tiers to cater to the needs of brands and influencers."
+    },
+    {
+      "question": "How do I reset my password?",
+      "answer": "To reset your password, go to the login page, click on 'Forgot Password,' and follow the instructions sent to your registered email."
+    },
+    {
+      "question": "What support options are available?",
+      "answer": "Flumers provides 24/7 customer support through chat, email, and a dedicated support portal."
+    },
+    {
+      "question": "How do I delete my account?",
+      "answer": "To delete your account, navigate to the account settings page and select 'Delete Account.' Follow the confirmation steps to complete the process."
+    },
+    {
+      "question": "What is the refund policy?",
+      "answer": "Flumers offers a 30-day money-back guarantee for all subscription plans. Contact support for refund requests."
+    },
+    {
+      "question": "How do I report a bug?",
+      "answer": "To report a bug, use the 'Report a Bug' option in the app or contact support with detailed information about the issue."
+    },
+    {
+      "question": "What is the roadmap for Flumers?",
+      "answer": "Flumers plans to introduce new features like advanced analytics, AI-driven campaign suggestions, and more integrations in the coming months."
+    },
+    {
+      "question": "What AI model is used for the matching tool?",
+      "answer": "The AI matching tool uses EfficientNet-B1, a state-of-the-art convolutional neural network model, for image classification and matching tasks."
+    },
+    {
+      "question": "How does the AI matching tool work?",
+      "answer": "The AI matching tool analyzes images using EfficientNet-B1 to classify and match them based on predefined criteria, ensuring accurate and efficient results."
+    },
+    {
+      "question": "What is the Floating Chatbot?",
+      "answer": "The Floating Chatbot provides real-time assistance to users, leveraging OpenAI's GPT models for intelligent responses. It enhances user experience and automates support."
+    },
+    {
+      "question": "What is the ProtectedRoute component?",
+      "answer": "ProtectedRoute is a React component that ensures only authenticated users with specific roles can access certain routes. It uses Firebase authentication and Firestore for role management."
+    },
+    {
+      "question": "What is the custom theme in the project?",
+      "answer": "The project uses a custom Material-UI theme with gradient colors, typography styles, and component overrides for a modern and consistent design."
+    },
+    {
+      "question": "What happens when I click on 'Login'?",
+      "answer": "Clicking on 'Login' takes you to the authentication page where you can enter your credentials to access the platform. If you are not registered, you can navigate to the 'Signup' page from here."
+    },
+    {
+      "question": "What happens when I click on 'Signup'?",
+      "answer": "Clicking on 'Signup' takes you to the registration page where you can create a new account by providing your details. Once registered, you can log in to access the platform."
+    },
+    {
+      "question": "What happens when I click on 'Search Influencers'?",
+      "answer": "Clicking on 'Search Influencers' allows brands to discover influencers based on filters like followers, platform, and niche. You can also use AI-powered recommendations for influencer discovery."
+    },
+    {
+      "question": "What happens when I click on 'Brand Dashboard'?",
+      "answer": "Clicking on 'Brand Dashboard' provides brands with an overview of their campaigns, orders, and influencer interactions. It includes features like order management and message notifications."
+    },
+    {
+      "question": "What happens when I click on 'Influencer Dashboard'?",
+      "answer": "Clicking on 'Influencer Dashboard' allows influencers to manage their collaborations, view orders, and interact with brands. It includes features like order tracking and profile management."
+    },
+    {
+      "question": "What happens when I click on 'Floating Chatbot'?",
+      "answer": "Clicking on 'Floating Chatbot' opens a real-time assistant that provides intelligent responses to your queries, enhancing user experience and automating support."
+    },
+    {
+      "question": "What happens when I click on 'Show Profile'?",
+      "answer": "Clicking on 'Show Profile' displays detailed information about a specific influencer, including their bio, platforms, and submitted files. Brands can also like or unlike the profile."
+    },
+    {
+      "question": "What happens when I click on 'User Profile'?",
+      "answer": "Clicking on 'User Profile' allows users to view and edit their personal information, such as name and bio. It supports toggling between edit and view modes."
+    },
+    {
+      "question": "How do I place an order as a brand?",
+      "answer": "To place an order as a brand, navigate to the 'Brand Dashboard' and click on 'Create Order.' Fill out the required details, such as influencer name, order description, total cost, and deadline. Once completed, submit the order to initiate collaboration."
+    },
+    {
+      "question": "How do I start a chat?",
+      "answer": "To start a chat, navigate to the 'Chat' section from your dashboard. Select the influencer or brand you want to communicate with and type your message in the chat box."
+    },
+    {
+      "question": "How do I use the chatbot?",
+      "answer": "To use the chatbot, click on the 'Floating Chatbot' icon available on the platform. Type your query, and the chatbot will provide intelligent responses to assist you."
+    },
+    {
+      "question": "Why is the influencer not showing in chat or orders?",
+      "answer": "If an influencer is not visible in chat or orders, navigate to the 'Search Influencers' section, locate the influencer, and like their profile. This action will add them to your list for collaboration."
+    },
+    {
+      "question": "How do I reset my password?",
+      "answer": "To reset your password, go to the login page, click on 'Forgot Password,' and follow the instructions sent to your registered email."
+    },
+    {
+      "question": "What support options are available?",
+      "answer": "Flumers provides 24/7 customer support through chat, email, and a dedicated support portal."
+    },
+    {
+      "question": "How do I delete my account?",
+      "answer": "To delete your account, navigate to the account settings page and select 'Delete Account.' Follow the confirmation steps to complete the process."
+    },
+    {
+      "question": "What is the refund policy?",
+      "answer": "Flumers offers a 30-day money-back guarantee for all subscription plans. Contact support for refund requests."
+    },
+    {
+      "question": "How do I report a bug?",
+      "answer": "To report a bug, use the 'Report a Bug' option in the app or contact support with detailed information about the issue."
+    },
+    {
+      "question": "What is the roadmap for Flumers?",
+      "answer": "Flumers plans to introduce new features like advanced analytics, AI-driven campaign suggestions, and more integrations in the coming months."
+    },
+    {
+      "question": "What AI model is used for the matching tool?",
+      "answer": "The AI matching tool uses EfficientNet-B1, a state-of-the-art convolutional neural network model, for image classification and matching tasks."
+    },
+    {
+      "question": "How does the AI matching tool work?",
+      "answer": "The AI matching tool analyzes images using EfficientNet-B1 to classify and match them based on predefined criteria, ensuring accurate and efficient results."
+    },
+    {
+      "question": "What is the Floating Chatbot?",
+      "answer": "The Floating Chatbot provides real-time assistance to users, leveraging OpenAI's GPT models for intelligent responses. It enhances user experience and automates support."
+    },
+    {
+      "question": "What is the ProtectedRoute component?",
+      "answer": "ProtectedRoute is a React component that ensures only authenticated users with specific roles can access certain routes. It uses Firebase authentication and Firestore for role management."
+    },
+    {
+      "question": "What is the custom theme in the project?",
+      "answer": "The project uses a custom Material-UI theme with gradient colors, typography styles, and component overrides for a modern and consistent design."
+    },
+    {
+      "question": "What happens when I click on 'Login'?",
+      "answer": "Clicking on 'Login' takes you to the authentication page where you can enter your credentials to access the platform. If you are not registered, you can navigate to the 'Signup' page from here."
+    },
+    {
+      "question": "What happens when I click on 'Signup'?",
+      "answer": "Clicking on 'Signup' takes you to the registration page where you can create a new account by providing your details. Once registered, you can log in to access the platform."
+    },
+    {
+      "question": "What happens when I click on 'Search Influencers'?",
+      "answer": "Clicking on 'Search Influencers' allows brands to discover influencers based on filters like followers, platform, and niche. You can also use AI-powered recommendations for influencer discovery."
+    },
+    {
+      "question": "What happens when I click on 'Brand Dashboard'?",
+      "answer": "Clicking on 'Brand Dashboard' provides brands with an overview of their campaigns, orders, and influencer interactions. It includes features like order management and message notifications."
+    },
+    {
+      "question": "What happens when I click on 'Influencer Dashboard'?",
+      "answer": "Clicking on 'Influencer Dashboard' allows influencers to manage their collaborations, view orders, and interact with brands. It includes features like order tracking and profile management."
+    },
+    {
+      "question": "What happens when I click on 'Floating Chatbot'?",
+      "answer": "Clicking on 'Floating Chatbot' opens a real-time assistant that provides intelligent responses to your queries, enhancing user experience and automating support."
+    },
+    {
+      "question": "What happens when I click on 'Show Profile'?",
+      "answer": "Clicking on 'Show Profile' displays detailed information about a specific influencer, including their bio, platforms, and submitted files. Brands can also like or unlike the profile."
+    },
+    {
+      "question": "What happens when I click on 'User Profile'?",
+      "answer": "Clicking on 'User Profile' allows users to view and edit their personal information, such as name and bio. It supports toggling between edit and view modes."
+    },
+    {
+      "question": "How do I place an order as a brand?",
+      "answer": "To place an order as a brand, navigate to the 'Brand Dashboard' and click on 'Create Order.' Fill out the required details, such as influencer name, order description, total cost, and deadline. Once completed, submit the order to initiate collaboration."
+    },
+    {
+      "question": "How do I start a chat?",
+      "answer": "To start a chat, navigate to the 'Chat' section from your dashboard. Select the influencer or brand you want to communicate with and type your message in the chat box."
+    },
+    {
+      "question": "How do I use the chatbot?",
+      "answer": "To use the chatbot, click on the 'Floating Chatbot' icon available on the platform. Type your query, and the chatbot will provide intelligent responses to assist you."
+    },
+    {
+      "question": "Why is the influencer not showing in chat or orders?",
+      "answer": "If an influencer is not visible in chat or orders, navigate to the 'Search Influencers' section, locate the influencer, and like their profile. This action will add them to your list for collaboration."
+    },
+    {
+      "question": "How do I reset my password?",
+      "answer": "To reset your password, go to the login page, click on 'Forgot Password,' and follow the instructions sent to your registered email."
+    },
+    {
+      "question": "What support options are available?",
+      "answer": "Flumers provides 24/7 customer support through chat, email, and a dedicated support portal."
+    },
+    {
+      "question": "How do I delete my account?",
+      "answer": "To delete your account, navigate to the account settings page and select 'Delete Account.' Follow the confirmation steps to complete the process."
+    },
+    {
+      "question": "What is the refund policy?",
+      "answer": "Flumers offers a 30-day money-back guarantee for all subscription plans. Contact support for refund requests."
+    },
+    {
+      "question": "How do I report a bug?",
+      "answer": "To report a bug, use the 'Report a Bug' option in the app or contact support with detailed information about the issue."
+    },
+    {
+      "question": "What is the roadmap for Flumers?",
+      "answer": "Flumers plans to introduce new features like advanced analytics, AI-driven campaign suggestions, and more integrations in the coming months."
+    },
+    {
+      "question": "What AI model is used for the matching tool?",
+      "answer": "The AI matching tool uses EfficientNet-B1, a state-of-the-art convolutional neural network model, for image classification and matching tasks."
+    },
+    {
+      "question": "How does the AI matching tool work?",
+      "answer": "The AI matching tool analyzes images using EfficientNet-B1 to classify and match them based on predefined criteria, ensuring accurate and efficient results."
+    },
+    {
+      "question": "What is the Floating Chatbot?",
+      "answer": "The Floating Chatbot provides real-time assistance to users, leveraging OpenAI's GPT models for intelligent responses. It enhances user experience and automates support."
+    },
+    {
+      "question": "What is the ProtectedRoute component?",
+      "answer": "ProtectedRoute is a React component that ensures only authenticated users with specific roles can access certain routes. It uses Firebase authentication and Firestore for role management."
+    },
+    {
+      "question": "What is the custom theme in the project?",
+      "answer": "The project uses a custom Material-UI theme with gradient colors, typography styles, and component overrides for a modern and consistent design."
+    },
+    {
+      "question": "What happens when I click on 'Login'?",
+      "answer": "Clicking on 'Login' takes you to the authentication page where you can enter your credentials to access the platform. If you are not registered, you can navigate to the 'Signup' page from here."
+    },
+    {
+      "question": "What happens when I click on 'Signup'?",
+      "answer": "Clicking on 'Signup' takes you to the registration page where you can create a new account by providing your details. Once registered, you can log in to access the platform."
+    },
+    {
+      "question": "What happens when I click on 'Search Influencers'?",
+      "answer": "Clicking on 'Search Influencers' allows brands to discover influencers based on filters like followers, platform, and niche. You can also use AI-powered recommendations for influencer discovery."
+    },
+    {
+      "question": "What happens when I click on 'Brand Dashboard'?",
+      "answer": "Clicking on 'Brand Dashboard' provides brands with an overview of their campaigns, orders, and influencer interactions. It includes features like order management and message notifications."
+    },
+    {
+      "question": "What happens when I click on 'Influencer Dashboard'?",
+      "answer": "Clicking on 'Influencer Dashboard' allows influencers to manage their collaborations, view orders, and interact with brands. It includes features like order tracking and profile management."
+    },
+    {
+      "question": "What happens when I click on 'Floating Chatbot'?",
+      "answer": "Clicking on 'Floating Chatbot' opens a real-time assistant that provides intelligent responses to your queries, enhancing user experience and automating support."
+    },
+    {
+      "question": "What happens when I click on 'Show Profile'?",
+      "answer": "Clicking on 'Show Profile' displays detailed information about a specific influencer, including their bio, platforms, and submitted files. Brands can also like or unlike the profile."
+    },
+    {
+      "question": "What happens when I click on 'User Profile'?",
+      "answer": "Clicking on 'User Profile' allows users to view and edit their personal information, such as name and bio. It supports toggling between edit and view modes."
+    },
+    {
+      "question": "How do I place an order as a brand?",
+      "answer": "To place an order as a brand, navigate to the 'Brand Dashboard' and click on 'Create Order.' Fill out the required details, such as influencer name, order description, total cost, and deadline. Once completed, submit the order to initiate collaboration."
+    },
+    {
+      "question": "How do I start a chat?",
+      "answer": "To start a chat, navigate to the 'Chat' section from your dashboard. Select the influencer or brand you want to communicate with and type your message in the chat box."
+    },
+    {
+      "question": "How do I use the chatbot?",
+      "answer": "To use the chatbot, click on the 'Floating Chatbot' icon available on the platform. Type your query, and the chatbot will provide intelligent responses to assist you."
+    },
+    {
+      "question": "Why is the influencer not showing in chat or orders?",
+      "answer": "If an influencer is not visible in chat or orders, navigate to the 'Search Influencers' section, locate the influencer, and like their profile. This action will add them to your list for collaboration."
+    },
+    {
+      "question": "How do I reset my password?",
+      "answer": "To reset your password, go to the login page, click on 'Forgot Password,' and follow the instructions sent to your registered email."
+    },
+    {
+      "question": "What support options are available?",
+      "answer": "Flumers provides 24/7 customer support through chat, email, and a dedicated support portal."
+    },
+    {
+      "question": "How do I delete my account?",
+      "answer": "To delete your account, navigate to the account settings page and select 'Delete Account.' Follow the confirmation steps to complete the process."
+    },
+    {
+      "question": "What is the refund policy?",
+      "answer": "Flumers offers a 30-day money-back guarantee for all subscription plans. Contact support for refund requests."
+    },
+    {
+      "question": "How do I report a bug?",
+      "answer": "To report a bug, use the 'Report a Bug' option in the app or contact support with detailed information about the issue."
+    },
+    {
+      "question": "What is the roadmap for Flumers?",
+      "answer": "Flumers plans to introduce new features like advanced analytics, AI-driven campaign suggestions, and more integrations in the coming months."
+    }
+  ]
+}
